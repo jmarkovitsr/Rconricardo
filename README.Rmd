@@ -45,3 +45,8 @@ y = c(40, 20, 18, 10, 8)
 ggplot(data = df, aes(x=x, y=y)) + 
   geom_point()
 
+setwd('C:/Users/spanport/Desktop/Spring20/aresty/')
+library('readxl')
+
+df2 = read_excel('Copy of aresty_dataframe-1.xlsx')
+
