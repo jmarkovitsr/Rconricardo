@@ -49,4 +49,10 @@ setwd('C:/Users/spanport/Desktop/Spring20/aresty/')
 library('readxl')
 
 df2 = read_excel('Copy of aresty_dataframe-1.xlsx')
+summary(df2)
+df3 = read_excel('besa_perception.xlsx')
+summary(df3)
+besaesp = c(rownames(df3[1:3,]))
+
+
 
