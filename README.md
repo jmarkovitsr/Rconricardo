@@ -1,4 +1,5 @@
 # Rconricardo
 # cambios
 # no me resulta
-# nuevos ejercicios
+# ahora si
+# eso 
