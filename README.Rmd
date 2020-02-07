@@ -25,19 +25,18 @@ cel = c(1:50)
 fa = cel_to_fa(cel)
 df = data.frame(x= cel, y = fa)
 
-# scatter plot (wight and mpg) relacion entre dos variables 
-ggplot(data = df, aes(x=cel, y=fa)) + 
+# scatter plot (wight and mpg) relacion entre dos variables
+ggplot(data = df, aes(x= x, y= y)) + 
   geom_point()
   
- my_scatter = function(cel = x, y){
+my_scatter = function(cel = x, y){
   # formula 
-  fa = gplot(data = df, aes(x=cel, y=fa)) + 
+  x = gplot(data = df, aes(x= x, y= y)) + 
   geom_point()
   
   # resultado de la function
-  return(ggplot)
-  
-}
+  return(y )
+  }
 
 x = c(1,3,4,5,8)
 y = c(40, 20, 18, 10, 8)
